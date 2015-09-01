@@ -5,13 +5,13 @@ define({
         ["Country", "Country Code"],
         ["Item", "Item Code"]
     ],
-    "cols": ["Year", "Flag", "Flag Description"],
+    "cols": ["Year"],
     "vals": [
         "Value",
         "Flag", "Unit"
     ],
     "hiddenAttributes": [
-        "NoRecords", "RecordOrder", "Domain Code", "Domain", "Year Code", "Unit", "Value", "Var1Order", "Var2Order", "Var3Order", "Var4Order"
+        "NoRecords", "RecordOrder", "Domain Code", "Domain", "Year Code", "Unit", "Value", "Var1Order", "Var2Order", "Var3Order", "Var4Order", "Flag", "Flag Description"
     ],
     linkedAttributes: [["Element", "Element Code"], ["Country", "Country Code"], ["Item", "Item Code"]],
 
