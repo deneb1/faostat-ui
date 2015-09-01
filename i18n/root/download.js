@@ -8,5 +8,7 @@ define({
     preview_options_label: 'Preview Options',
     preview_label: 'Preview',
     error: 'Error',
-    warning: 'Please Note'
+    warning: 'Please Note',
+    preview_courtesy_message: 'Please use the <kbd>Preview</kbd> button to enable the options.',
+    no_data_available: 'No data available for the current selection.'
 });
